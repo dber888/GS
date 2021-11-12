@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="https://ogorod.vamtest.ru/local/templates/good_systems_template/css/bootstrap-grid.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <title>GoodSystems</title>
+  </head>
+  <body>
+        <header>
+
+            <div class="top-menu-header top-menu-header--dark">
+                <div class="container-fluid top-menu-header--inside">
+                    <div class="logo logo--top-menu"><a href="#"><img src="img/logo.png" alt=""></a></div>
+                    <ul class="top-menu-list-desk">
+                        <li class="top-menu-list__item"><a href="#">Работы</a></li>
+                        <li class="top-menu-list__item"><a href="#">Услуги</a></li>
+                        <li class="top-menu-list__item"><a href="#">О нас</a></li>
+                        <li class="top-menu-list__item"><a href="#">Контакты</a></li>
+                    </ul>
+                    <div class="top_menu top_menu--top-menu"><i class="t_l"></i><i class="t_r"></i><i class="b_l"></i><i class="b_r"></i></div>
+                    <a class="phone phone--top_menu" href="tel:+7 (3852) 57-07-59">+7 (3852) 57-07-59</a>
+                </div>
+            </div>
+
+            <div id="menu" class="top-menu">
+                <ul class="top-menu-list">
+                    <li class="top-menu-list__item"><a href="#">Работы</a></li>
+                    <li class="top-menu-list__item"><a href="#">Услуги</a></li>
+                    <li class="top-menu-list__item"><a href="#">О нас</a></li>
+                    <li class="top-menu-list__item"><a href="#">Контакты</a></li>
+                    <li class="top-menu-list__item"><a class="phone phone--top-menu" href="tel:83852570759">+7 (3852) 57-07-59</a></li>
+                    <li class="top-menu-list__item"><a href="#">Обсудить проект</a></li>
+                </ul>
+            </div>
+
+        </header>
+
+
+
+
+
+
+<div class="contacts">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="title contacts__h1">Контакты</h1>
+        </div>
+      </div>
+      <div class="row contacts__content">
+        <div class="col-12 col-sm-6 contacts__info">
+          <div class="row">
+            <div class="col-12 col-md-6 contacts__info__block">
+              <span class="contacts__info__block__title">Телефон:</span><span class="contacts__info__block__desc--b"> +7 (495) 066-56-32</span>
+            </div>
+            <div class="col-12 col-md-6 contacts__info__block">
+              <span class="contacts__info__block__title">E-mail:</span><span class="contacts__info__block__desc--b"> ogorod@forgorod.ru</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 contacts__info__block">
+              <span class="contacts__info__block__title">WhatsApp:</span><span class="contacts__info__block__desc--b">+7 (903) 116-49-10</span>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 contacts__info__block">
+              <span class="contacts__info__block__title">Адрес:</span><span class="contacts__info__block__desc"> г. Москва, ул. Большая Остроумовская 10, корп. 3</span>
+              <div class="contacts__info__hr">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 contacts__map">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A924561a9c8d55b63d9da686e75048d8e53b3ca0d5d306ad92c7bc8ff8b93bd33&width=100%25&height=365&lang=ru_RU&scroll=true"></script>
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <form action="/contacts/" class="col-12 col-sm-6 contacts__form" method="POST">
+              <div class="row">
+              <div class="col-12">Вы можете связаться с нами, заполнив форму:</div>
+              <div class="col-12 col-sm-6 contacts__form__block">
+                  <input type="text" name="user_name" placeholder="Имя" class="styled" value=""   required  />
+
+              </div>
+              <div class="col-12 col-sm-6 contacts__form__block">
+                <div>
+                  <input type="text" name="user_email" placeholder="Почта" class="styled" value=""   />
+                </div>
+              </div>
+              <div class="col-12 contacts__form__block confirmContBlock__item">
+                <label for="area">Сообщение</label>
+                  <textarea id="area"  class="textarea" required></textarea>
+              </div>
+              <div class="col-12 contacts__form__block__send">
+                <div class="row">
+                  <div class="col-12 col-lg-3 col-md-3 contacts__form__block__send__submit">
+                    <input type="submit" class="button-green" name="submit" value="Отправить">
+                  </div>
+                  <div class="col-12 col-lg-9 col-md-9 contacts__form__block__send__aggree">
+                    <p>
+                      Нажимая на кнопку, Вы подтверждаете свое согласие на обработку Ваших
+                      персональных данных в соответствии с условиями <a class="policy" href="/docs/policy.docx">Политики конфиденциальности </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </form>
+            <div class="col-12 col-sm-6 contacts__address">
+              <div class="contacts__address__title">
+                Наши реквизиты:
+              </div>
+              <p>
+                Номер счета: 40802810538000049540 <br>
+                ИП Смирнова Юлия Анатольевна <br>
+                ИНН: 771672490175 <br>
+                ОГРНИП: 313774634000991 <br>
+                Юридический адрес: 105082 Рубцовская набережная д. 4 кор. 2 кВ. 162 						</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    <footer>
+      <div class="wrapper">
+        <div class="top">
+          <ul>
+            <li><a href="#">Работы</a></li>
+            <li><a href="#">Услуги</a></li>
+            <li><a href="#">О нас</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="bottom">
+          <div class="left">
+            <p>г. Барнаул, пр. Социалистический 34, офис 323</p><a href="tel:+7 (3852) 57-07-59">+7 (3852) 57-07-59</a>
+          </div>
+          <div class="right">
+            <p>© 2014-2017. Полезные системы</p><a href="#">Политика конфиденциальности</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+
+
+
+
+  <link type="text/css" rel="stylesheet" href="css/slick-theme.css">
+  <link type="text/css" rel="stylesheet" href="css/slick.css">
+  <script type="text/javascript" src="js/slick.js"></script>
+  <link type="text/css" rel="stylesheet" href="css/jquery.formstyler.css">
+  <link type="text/css" rel="stylesheet" href="css/jquery.formstyler.theme.css">
+  <link type="text/css" rel="stylesheet" href="css/nice-select.css">
+  <script type="text/javascript" src="js/jquery.formstyler.js"></script>
+  <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+  <script type="text/javascript" src="js/jquery.gradienttext.js"></script>
+  <script type="text/javascript" src="js/jquery.nice-select.js"></script>
+  <script type="text/javascript" src="js/snap.svg.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>

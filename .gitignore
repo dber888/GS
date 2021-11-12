@@ -1,1 +1,14 @@
-"#" 
+/bitrix/
+#!/bitrix/templates/*
+/upload/
+/.idea/
+*.doc
+*.xls
+*.enc.*
+/robots.txt
+/.htsecure
+*.txt
+*.log
+yandex*.html
+
+

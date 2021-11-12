@@ -1,0 +1,176 @@
+.popup-window,
+.popup-window.popup-window-with-titlebar {
+	padding:0;
+}
+.popup-window,
+.popup-window-content-row .popup-window-center-column,
+.popup-window-content,
+.popup-window-content-white .popup-window-content {
+	background:transparent;
+	box-shadow:none;
+	border:none;
+}
+.popup-window .popup-window-content {
+	font-family: Akrobat, sans-serif;
+	color: #747a83;
+	font-size: 18px;
+	background: url(/bitrix/templates/citrusfitness.ru/images/bcg.jpg) transparent;
+}
+.popup-window-close-icon {
+	background:url(images/close.png)  0 0;
+	width:24px;
+	height:24px;
+	position:absolute;
+	top:-36px;
+	right:-36px;
+	transition:transform .3s ease;
+	border:none;
+	opacity: 1;
+}
+.popup-window-close-icon:hover {
+	background:url(images/close.png)  0 0;
+	transform:rotate(180deg);
+}
+.popup-window-close-icon:after {
+	display: none;
+}
+.popup-window {
+	height:auto;
+	position: relative;
+	border:10px solid rgba(255,255,255,.29);
+	border-radius: 4px;
+}
+.popup-window:before {
+	content: '';
+	display: block;
+	background: url(images/before.png);
+	width: 737px;
+	height: 487px;
+	position: absolute;
+	left: -130px;
+	bottom: -100px;
+	pointer-events: none;
+}
+.popup-window.popup-window-with-titlebar {
+
+}
+.popup-form .popup-form-container {
+	position:relative;
+	padding:0;
+}
+.popup-form .popup-form-container form {
+	/*position:relative;*/
+}
+.popup-form .form-text {
+	padding:13px;
+}
+.popup-form h2,
+.popup-window-titlebar,
+.popup-window-titlebar-text {
+	text-align:center;
+	margin:0;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	color:#545960;
+	font-size:30px;
+	line-height:1em;
+	text-transform:uppercase;
+	padding:10px 30px 0 30px;
+	position: relative;
+	font-family: "a_Concepto BoldItalic", sans-serif;
+}
+.popup-window-titlebar-text {
+	box-shadow: none;
+	padding:0 4px;
+}
+.popup-window-buttons {
+	padding:0 10px 10px 10px;
+}
+	.popup-window-buttons .slick-track {
+		display:inline;
+	}
+	.popup-window-buttons .slick-track:before,
+	.popup-window-buttons .slick-track:after {
+		display:none;
+	}
+.popup-form .form-line {
+	margin-bottom:8px;
+}
+.form-line input[type="text"],
+.form-line input[type="password"],
+.form-line textarea {
+	border:0;
+	border-bottom:1px solid #b7b9bf;
+	background: transparent;
+	line-height:36px;
+	padding:0;
+	color: #546b71;
+	font-size: 24px;
+	font-weight:300;
+	width: calc(100% - 34px);
+}
+.form-line textarea {
+	padding:10px 10px 10px 43px;
+	line-height:1.2em;
+	width:calc(100% - 55px);
+	height:150px;
+	border:1px solid #b7b9bf;
+	background: url(images/comment.png) no-repeat 10px 15px;
+}
+
+.form-line span {
+
+}
+.form-line span:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+.form-line span.NAME:before {
+	background-image: url(images/name.png);
+	width: 25px;
+	height: 29px;
+}
+.form-line span.PHONE:before {
+	background-image: url(images/phone.png);
+	width: 25px;
+	height: 25px;
+}
+.form-line input[type="text"].input-error {
+	background-color: rgba(255,0,0,.7) !important;
+	color: #fff;
+	border: 0;
+}
+
+.popup-form .form-text input::-webkit-input-placeholder,
+.popup-form .form-text textarea::-webkit-input-placeholder {
+	color:#747a83;
+	text-transform: uppercase;
+}
+.popup-form .form-text input:-moz-placeholder,
+.popup-form .form-text textarea:-moz-placeholder {
+	color:#747a83;
+	text-transform: uppercase;
+}
+.form-line a:link,
+.form-line a:visited {
+	color: #86979c;
+}
+.popup-window .button-container {
+	text-align:center;
+	width:100%;
+	position: absolute;
+	left:0;
+	/*bottom:-20px;*/
+}
+.popup-window-overlay {
+	opacity:.9 !important;
+}
+.popup-window .btn {
+
+}
+.popup-window .form-text p {
+	color: #747a83;
+}
